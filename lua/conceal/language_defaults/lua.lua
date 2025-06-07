@@ -15,11 +15,6 @@ return {
     conceal = "R",
     highlight = "keyword.function",
   },
-  ["and"] = {
-    enabled = true,
-    conceal = "&",
-    highlight = "keyword.function",
-  },
   ["then"] = {
     enabled = true,
     conceal = "{",
