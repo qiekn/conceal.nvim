@@ -1,4 +1,15 @@
 return {
+  ["function"] = {
+    enabled = true,
+    conceal = "󰊕",
+    highlight = "keyword.function",
+  },
+  ["local"] = {
+    enabled = true,
+    conceal = "",
+    -- conceal = "",
+    highlight = "keyword",
+  },
   ["return"] = {
     enabled = true,
     conceal = "R",
