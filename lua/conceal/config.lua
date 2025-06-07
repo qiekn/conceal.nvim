@@ -16,7 +16,7 @@ return {
   },
 
   ["python"] = {
-    enabled = true,
+    enabled = false,
     keywords = language_defaults.python,
   },
 }
