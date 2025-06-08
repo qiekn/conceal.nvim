@@ -30,4 +30,9 @@ return {
     conceal = "}",
     highlight = "punctuation.bracket",
   },
+  ["self"] = {
+    enabled = true,
+    conceal = "",
+    highlight = "keyword.function",
+  },
 }

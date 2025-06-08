@@ -91,4 +91,11 @@ return {
       options.conceal
     )
   end,
+  ["self"] = function(options)
+    return string.format(
+      '((identifier) @variable.builtin (#eq? @variable.builtin "self") (#set! conceal ""))',
+      options.highlight,
+      options.conceal
+    )
+  end,
 }
